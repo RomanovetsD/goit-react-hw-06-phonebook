@@ -1,0 +1,60 @@
+{
+  "name": "phonebook-homework_6",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "camelcase": "^5.3.1",
+    "dateformat": "^3.0.3",
+    "gh-pages": "^2.1.1",
+    "halogen": "^0.2.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.10.2",
+    "react-infinite-scroller": "^1.2.4",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-toastify": "^5.4.0",
+    "redux": "^4.0.4",
+    "reselect": "^4.0.0",
+    "shortid": "^2.2.15",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://github.com/RomanovetsD/goit-react-hw-06-phonebook/",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2"
+  }
+}

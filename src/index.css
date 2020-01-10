@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  padding: 0 40px 40px 40px;
+}
+
+h1,
+h2 {
+  text-align: left;
+  margin: 0 30px 30px 0;
+}
+
+h1 {
+  padding: 20px 40px;
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+/* Contact Filter*/
+.Input_filter {
+  display: block;
+  margin: left;
+  margin-bottom: 20px;
+}
+
+.Label_filter {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Contact Form */
+.Form {
+  padding: 50px 50px 0 50px;
+  margin: 0 0 40px 0;
+  width: 40%;
+  border: 2px solid black;
+}
+
+label {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid gray;
+  margin-bottom: 40px;
+}
+
+.Form_button {
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+  margin-left: 60px;
+  background: linear-gradient(to bottom, rgb(12, 216, 161) 0%, #2fc429 100%);
+  border-radius: 5px;
+}
+
+/* Contact List */
+.List {
+  padding: 20px;
+  list-style: none;
+  margin: left;
+}
+
+.List_item {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+  padding: 10px;
+}
+
+.List_item > p > span {
+  font-weight: bold;
+}
+
+.Button_contact {
+  width: 100px;
+  height: 20px;
+  background-color: rgb(128, 235, 125);
+  color: black;
+  font-weight: bold;
+  border-radius: 5%;
+  display: block;
+  margin: left;
+}
