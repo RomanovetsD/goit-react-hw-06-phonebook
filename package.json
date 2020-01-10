@@ -28,7 +28,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/RomanovetsD/goit-react-hw-06-phonebook/",
+  "homepage": "https://romanovetsd.github.io/goit-react-hw-06-phonebook/",
   "eslintConfig": {
     "extends": "react-app"
   },
