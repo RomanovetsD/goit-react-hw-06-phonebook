@@ -27,7 +27,7 @@ export default function ContactForm({ onSave }) {
 
   return (
     <form onSubmit={onSubmit} className="Form">
-      <label> Name:</label>
+      <label htmlFor={nameId.current}>Name:</label>
       <input
         type="text"
         name="name"
@@ -35,7 +35,7 @@ export default function ContactForm({ onSave }) {
         onChange={onChangeName}
         id={nameId.current}
       />
-      <label>Phone number: </label>
+      <label htmlFor={nameId.current}>Phone number: </label>
 
       <input
         type="text"

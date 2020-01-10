@@ -6,26 +6,17 @@ import localStorage from '../../localStorage';
 import ContactForm from '../ContactForm';
 import ContactFilter from '../ContactFilter';
 import ContactList from '../ContactList';
+import phoneBookReducer from '../../reducers/reducer';
 
-import { Message, CONTACTS } from '../../server/constants';
+import {
+  Message,
+  CONTACTS,
+  ADD_CONTACT,
+  REMOVE_CONTACT,
+  SET_ALL_CONTACTS,
+} from '../../server/constants';
 
 toast.configure();
-
-const phoneBookReducer = (state = [], { type, payload }) => {
-  switch (type) {
-    case 'ADD_CONTACT':
-      return [...state, payload.contact];
-
-    case 'REMOVE_CONTACT':
-      return state.filter(contact => contact.id !== payload.id);
-
-    case 'SET_ALL_CONTACTS':
-      return payload.contacts;
-
-    default:
-      return state;
-  }
-};
 
 export default function App() {
   const [contacts, dispatch] = useReducer(phoneBookReducer, []);
@@ -35,7 +26,7 @@ export default function App() {
     const contacts = localStorage.getLocalStorage(CONTACTS);
     if (contacts) {
       dispatch({
-        type: 'SET_ALL_CONTACTS',
+        type: SET_ALL_CONTACTS,
         payload: {
           contacts,
         },
@@ -65,7 +56,7 @@ export default function App() {
     }
 
     dispatch({
-      type: 'ADD_CONTACT',
+      type: ADD_CONTACT,
       payload: {
         contact,
       },
@@ -75,7 +66,7 @@ export default function App() {
 
   const removeContact = id => {
     dispatch({
-      type: 'REMOVE_CONTACT',
+      type: REMOVE_CONTACT,
       payload: {
         id,
       },
