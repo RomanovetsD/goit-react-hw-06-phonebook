@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/RomanovetsD/goit-react-hw-06-phonebook/static/css/main.0d863f59.chunk.css",
+    "main.js": "/RomanovetsD/goit-react-hw-06-phonebook/static/js/main.0185e22d.chunk.js",
+    "main.js.map": "/RomanovetsD/goit-react-hw-06-phonebook/static/js/main.0185e22d.chunk.js.map",
+    "runtime-main.js": "/RomanovetsD/goit-react-hw-06-phonebook/static/js/runtime-main.11900868.js",
+    "runtime-main.js.map": "/RomanovetsD/goit-react-hw-06-phonebook/static/js/runtime-main.11900868.js.map",
+    "static/css/2.5dbdccff.chunk.css": "/RomanovetsD/goit-react-hw-06-phonebook/static/css/2.5dbdccff.chunk.css",
+    "static/js/2.3b9f38e7.chunk.js": "/RomanovetsD/goit-react-hw-06-phonebook/static/js/2.3b9f38e7.chunk.js",
+    "static/js/2.3b9f38e7.chunk.js.map": "/RomanovetsD/goit-react-hw-06-phonebook/static/js/2.3b9f38e7.chunk.js.map",
+    "index.html": "/RomanovetsD/goit-react-hw-06-phonebook/index.html",
+    "precache-manifest.10a998e5309e1347c2a9bb1f359d3909.js": "/RomanovetsD/goit-react-hw-06-phonebook/precache-manifest.10a998e5309e1347c2a9bb1f359d3909.js",
+    "service-worker.js": "/RomanovetsD/goit-react-hw-06-phonebook/service-worker.js",
+    "static/css/2.5dbdccff.chunk.css.map": "/RomanovetsD/goit-react-hw-06-phonebook/static/css/2.5dbdccff.chunk.css.map",
+    "static/css/main.0d863f59.chunk.css.map": "/RomanovetsD/goit-react-hw-06-phonebook/static/css/main.0d863f59.chunk.css.map",
+    "static/js/2.3b9f38e7.chunk.js.LICENSE": "/RomanovetsD/goit-react-hw-06-phonebook/static/js/2.3b9f38e7.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11900868.js",
+    "static/css/2.5dbdccff.chunk.css",
+    "static/js/2.3b9f38e7.chunk.js",
+    "static/css/main.0d863f59.chunk.css",
+    "static/js/main.0185e22d.chunk.js"
+  ]
+}
